@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Color -->
+    <solid android:color="@color/sky_blue_light" />
+
+    <!-- Stroke -->
+    <stroke android:color="@color/sky_blue_light" android:width="@dimen/_1dp"/>
+
+    <!-- Padding -->
+    <padding
+        android:left="@dimen/_0dp"
+        android:top="@dimen/_0dp"
+        android:right="@dimen/_0dp"
+        android:bottom="@dimen/_0dp"
+        />
+
+    <!-- Round Corners -->
+    <corners
+        android:bottomRightRadius="@dimen/_10dp"
+        android:bottomLeftRadius="@dimen/_10dp"
+        android:topLeftRadius="@dimen/_10dp"
+        android:topRightRadius="@dimen/_10dp"/>
+
+</shape>
